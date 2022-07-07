@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "title": "Frontend-Magic mit CSS Houdini",
+    "description": "CSS Houdini beschreibt neue Standards, mit der CSS nahezu beliebig erweitert werden kann. Das eröffnet völlig neue Möglichkeiten für Styling, Imaging und Animation. Es hilft aber auch, den programmatischen Zugriff auf CSS über ein klares Objektmodell zu vereinfachen. Jörg Neumann zeigt die Magie hinter CSS Houdini und gibt einen Ausblick auf die kommenden Standards.",
+    "sessionType": 1,
+    "speakerId": 1,
+    "time": "09:00 - 10:00"
+  },
+  {
+    "id": 2,
+    "title": "Coffee Break",
+    "description": "",
+    "sessionType": 3,
+    "speakerId": 0,
+    "time": "10:00 - 10:30"
+  },
+  {
+    "id": 3,
+    "title": "Durchstarten mit .NET MAUI",
+    "description": "Mit .NET 6 schneidet Microsoft alte Zöpfe ab, stellt die Entwicklung des Cross-Platform-Frameworks Xamarin ein und präsentiert gleichzeitig mit .NET Multi-Platform App UI (.NET MAUI) einen Nachfolger. In diesem Vortrag erfahren Sie, was die Ziele von .NET MAUI sind, wo die Unterschiede zu Xamarin.Forms liegen und was bei einer Migration zu beachten ist.",
+    "sessionType": 1,
+    "speakerId": 2,
+    "time": "10:30 - 11:30"
+  },
+  {
+    "id": 4,
+    "title": "Coffee Break",
+    "description": "",
+    "sessionType": 3,
+    "speakerId": 0,
+    "time": "11:30 - 12:00"
+  },
+  {
+    "id": 5,
+    "title": "Schön und ungebunden: Leichtgewichtige UI-Komponenten fürs Web entwickeln",
+    "description": "Komponentenbasierte Entwicklung hat sich inzwischen in allen großen Frameworks durchgesetzt. Doch wie entwickelt man Komponenten, die völlig unabhängig funktionieren und in jedem Framework verwendet werden können? Mit Hilfe des Web-Component-Standards und Frameworks wie Polymer können Sie genau dies erreichen. Jörg Neumann zeigt Ihnen, wie Sie leistungsstarke Komponenten entwickeln und gibt Tipps für die Gestaltung und Interaktion.",
+    "sessionType": 1,
+    "speakerId": 1,
+    "time": "12:00 - 13:00"
+  },
+  {
+    "id": 6,
+    "title": "Lunch Break",
+    "description": "",
+    "sessionType": 3,
+    "speakerId": 0,
+    "time": "13:00 - 14:15"
+  },
+  {
+    "id": 7,
+    "title": "Wo lang? Bauch oder Kopf? (Technologie-)Entscheidungen richtig treffen",
+    "description": "Wann hast du die letzte wichtige Entscheidung getroffen? Psychologen sagen, wir treffen 20.000 Entscheidungen am Tag. Wenn das mal im Software-Alltag so einfach wäre… Welche Technologie ist die Richtige? Auf welchen Hersteller soll ich setzen? Wie baue ich die Architektur meiner App am besten auf? Das EntwicklerInnen-Leben ist in den vergangenen Jahren nicht einfacher geworden – Wege und Möglichkeiten werden immer unübersichtlicher. Es wird Zeit über etwas zu sprechen, das uns alle täglich beschäftigt… 30 Minuten über einfache Methoden für bessere Entscheidungen.",
+    "sessionType": 2,
+    "speakerId": 3,
+    "time": "14:15 - 14:45"
+  },
+  {
+    "id": 8,
+    "title": "Coffee Break",
+    "description": "",
+    "sessionType": 3,
+    "speakerId": 0,
+    "time": "13:00 - 14:15"
+  },
+  {
+    "id": 10,
+    "title": "Microfrontends: Module Federation und Angular jenseits der Grundlagen",
+    "description": "Als Missing Link und Hoffnungsträger für Microfrontends wurde das brandneue webpack 5 Module Federation in den letzten Monaten intensiv diskutiert. Die Grundlagen sind zwar schnell erklärt, aber die wirklich interessanten Fragen ergeben sich erst danach: Wie gehen wir mit Versionskonflikten um? Wie lassen sich Bibliotheken teilen und wie können Microfrontends miteinander kommunizieren? Wie lassen sich Microfrontends, von denen wir erst zur Laufzeit erfahren, dynamisch laden? Wie nutzen wir Module Federation in einem Monorepo und ergibt das überhaupt Sinn? Wie lassen sich verschiedene Frameworks kombinieren und Web Components einbinden? Nach einem kurzen Überblick zu Module Federation beantwortet die Session diese Fragen anhand einer Fallstudie und diskutiert erforderliche Kompromisse. Am Ende wissen Sie, wie Sie all diese Herausforderungen in Ihren eigenen Projekten meistern können.",
+    "sessionType": 1,
+    "speakerId": 4,
+    "time": "15:15 - 16:15"
+  },
+  {
+    "id": 11,
+    "title": "Coffee Break",
+    "description": "",
+    "sessionType": 3,
+    "speakerId": 0,
+    "time": "16:15 - 16:45"
+  },
+  {
+    "id": 12,
+    "title": "Neuigkeiten in Entity Framework Core 6.0 und 7.0",
+    "description": "Microsoft verbessert Entity Framework Core kontinuierlich. Die im November 2021 erschienene Version 6.0 und die kommende Version 7.0 von Entity Framework Core bringen einige Erweiterungen, dazu gehören weitere Angleichungen an das klassische ADO.NET Entity Framework. Dieser Vortrag thematisiert die neuen Funktionen und vergleicht die Performance mit den Vorgängerversionen und anderen Datenzugriffstechniken.",
+    "sessionType": 1,
+    "speakerId": 5,
+    "time": "16:45 - 17:45"
+  }
+]

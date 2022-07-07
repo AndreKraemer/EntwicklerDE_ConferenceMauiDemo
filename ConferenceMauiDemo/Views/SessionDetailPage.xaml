@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:ConferenceMauiDemo.ViewModels"
+             x:Class="ConferenceMauiDemo.Views.SessionDetailPage"
+             Title="{Binding Session.Title}"
+             x:DataType="vm:SessionDetailPageViewModel">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Border StrokeThickness="0" StrokeShape="RoundRectangle 0,0,45,45" >
+                <Image Source="{Binding Session.Speaker.Image}" Aspect="AspectFit"/>
+            </Border>
+
+            <Label Text="{Binding Session.Title}"
+                   Margin="20,30,20,0"
+                   FontSize="Title"
+                   TextColor="{StaticResource Gray900}"
+                   FontAttributes="Bold"/>
+
+            <HorizontalStackLayout Margin="20,5,20,0">
+                <Label Text="{Binding Session.Speaker.Name, StringFormat='{0} |'}"
+                   FontSize="Caption"
+                   TextColor="{StaticResource Gray900}"
+                   FontAttributes="Bold"/>
+                <Label Text="{Binding Session.Speaker.Company, StringFormat='{0} |'}"
+                   FontSize="Caption"
+                   TextColor="{StaticResource Gray400}"
+                   FontAttributes="Bold"/>
+                <Label Text="{Binding Session.Speaker.Twitter}"
+                   FontSize="Caption"
+                   TextColor="{StaticResource Blue100Accent}"
+                   FontAttributes="Bold">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding OpenTwitterCommand}"/>
+                    </Label.GestureRecognizers>
+                </Label>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout Margin="20,5,20,0">
+                <Label Text="{Binding Session.Time}"
+                   FontSize="Caption"
+                   TextColor="{StaticResource Gray900}"
+                   FontAttributes="Bold"
+                       VerticalOptions="Center"/>
+                <Border StrokeShape="RoundRectangle 45,45,45,45" StrokeThickness="0" HorizontalOptions="End">
+                    <Label Text="{Binding Session.SessionType}" 
+                           BackgroundColor="LightGreen" Padding="10,5" Margin="10,0"
+                           TextColor="DarkGreen" FontAttributes="Bold"/>
+                </Border>
+            </HorizontalStackLayout>
+
+            <Label Text="{Binding Session.Description}" Margin="20" TextColor="{StaticResource Gray600}"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

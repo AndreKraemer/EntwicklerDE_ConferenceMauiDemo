@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Jörg Neumann",
+    "bio": "Jörg Neumann ist Mitgründer und Geschäftsführer der Aclue GmbH. Er berät seit vielen Jahren Unternehmen bei der Technologieauswahl, Architektur und dem Entwurf mobiler Apps. Für sein Engagement in diesem Bereich wurde er von Microsoft mehrfach mit dem „Most Valuable Professional“-Award ausgezeichnet. Sein Wissen vermittelt er regelmäßig in Form von Büchern, Beiträgen in Fachzeitschriften sowie als Sprecher und Trainer auf Konferenzen und Seminaren. Sie erreichen ihn über Twitter (@JoergNeumann) oder seinen Blog headwriteline.blogspot.com.",
+    "company": "Aclue GmbH",
+    "image": "https://basta.net/wp-content/uploads/2022/06/Joerg-Neumann-21.jpg",
+    "twitter": "https://twitter.com/JoergNeumann"
+  },
+  {
+    "id": 2,
+    "name": "André Krämer",
+    "bio": "André Krämer ist Geschäftsführer der Quality Bytes GmbH, freiberuflicher Trainer und Berater und Partner im www.IT-Visions.de-Expertennetzwerk. Seine Schwerpunkte liegen in den Bereichen Webentwicklung mit ASP.NET und JavaScript, App-Entwicklung mit Xamarin, Azure DevOps, Dokumentengenerierung und Reporting mit TX Text Control sowie der Analyse von Memory Leaks und Performanceproblemen. Er ist regelmäßiger Autor für LinkedIn Learning, wo er bereits mehr als zwanzig Videotrainings veröffentlicht hat. Außerdem ist er TX Text Control MVP und Microsoft MVP.",
+    "company": "Quality Bytes GmbH",
+    "image": "https://basta.net/wp-content/uploads/2022/06/Andre-Kraemer-21.jpg",
+    "twitter": "https://twitter.com/codemurai"
+  },
+  {
+    "id": 3,
+    "name": "Thomas Althammer",
+    "bio": "Thomas Althammer verbindet Softwareentwicklung mit den Themen Datenschutz und Informationssicherheit. Nach vielen Jahren als Softwarearchitekt im Gesundheits- und Sozialwesen beschäftigt er sich heute insbesondere mit IT-Compliance und Strategien zur Entwicklung von Unternehmensanwendungen. Er ist Mitbegründer der Ice Tea Group, LLC. mit Sitz in Washington (USA). Das internationale Team hat sich auf Entwicklungstools und Migrationskonzepte für komplexe, webbasierte Unternehmensanwendungen im .NET-Umfeld spezialisiert. https://www.iceteagroup.com und https://www.wisej.com. Zugleich ist Thomas Althammer Geschäftsführer der Althammer & Kill GmbH & Co. KG mit Sitz in Hannover. Das 30-köpfige Team betreut  Unternehmen im Bundesgebiet mit der Stellung des externen Datenschutzbeauftragten, der Implementierung von IT-Sicherheitskonzepten und der Durchführung von Penetration Tests im Netzwerk-, Applikations- und Webumfeld. https://www.althammer-kill.de",
+    "company": "Ice Tea Group, LLC/Althammer & Kill GmbH & Co. KG",
+    "image": "https://basta.net/wp-content/uploads/2022/06/Thomas-Althammer-21.jpg",
+    "twitter": "https://twitter.com/ThAlthammer"
+  },
+  {
+    "id": 4,
+    "name": "Manfred Steyer",
+    "bio": "Manfred Steyer is a trainer, consultant and programming architect with focus on Angular. Google Developer Expert and Trusted Collaborator in the Angular team who writes for O’Reilly, Java Magazine, and Windows Developer. He regularly speaks at conferences.",
+    "company": "SOFTWAREarchitekt.at",
+    "image": "https://basta.net/wp-content/uploads/2022/06/Manfred-Steyer-21.jpg",
+    "twitter": "https://twitter.com/ManfredSteyer"
+  },
+  {
+    "id": 5,
+    "name": "Dr. Holger Schwichtenberg",
+    "bio": "Dr. Holger Schwichtenberg – alias der \"DOTNET-DOKTOR\" – ist Leiter des Expertennetzwerkes www.IT-Visions.de, das mit 38 renommierten Experten zahlreiche mittlere und große Unternehmen durch Beratung und Schulung bei der Entwicklung sowie dem Betrieb von Software unterstützt. Durch seine Auftritte auf zahlreichen nationalen und internationalen Fachkonferenzen sowie mehr als 70 Fachbücher für O’Reilly, Addison-Wesley, Microsoft Press und dem Hanser-Verlag gehört er zu den bekanntesten Experten für .NET und Webtechniken in Deutschland. Darüber hinaus ist er ständiger Mitarbeiter bei Windows Developer und anderen Fachzeitschriften. Er hat in seiner Karriere bereits über 1300 Fachartikel veröffentlicht. Von Microsoft wird er für sein .NET-Fachwissen seit nunmehr 17 Jahren ausgezeichnet als Microsoft Most Valuable Professional (MVP). Er ist Chief Technology Expert bei Maximago und seit 1999 durchgehend Sprecher auf der BASTA!, Weblog: www.dotnet-doktor.de",
+    "company": "MAXIMAGO, www.IT-Visons.de",
+    "image": "https://basta.net/wp-content/uploads/2022/06/Dr.-Holger-Schwichtenberg-21.jpg",
+    "twitter": "https://twitter.com/DOTNETDOKTOR"
+  }
+]

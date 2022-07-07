@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ConferenceMauiDemo.MainPage">
+			 
+    <ScrollView>
+        <VerticalStackLayout 
+            Spacing="25" 
+            Padding="30,0" >
+
+            <Image
+                Source="basta_logo.png"
+                SemanticProperties.Description="Logo der BASTA Konferenz"
+                HeightRequest="200"
+                HorizontalOptions="Center">
+            </Image>
+
+            <Label 
+                Text="10. - 14. Oktober 2022"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                HorizontalOptions="Center" />
+            
+            <Label 
+                Text="Rheingoldhalle Mainz oder online"
+                SemanticProperties.HeadingLevel="Level2"
+                FontSize="18"
+                HorizontalOptions="Center" />
+
+            <Button 
+                Text="Anfahrt"
+                SemanticProperties.Hint="Anfahrt zur BASTA Konferenz"
+                Clicked="OnLocationClicked"
+                HorizontalOptions="Center" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+ 
+</ContentPage>
